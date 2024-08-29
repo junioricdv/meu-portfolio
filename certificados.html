@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="pt-br"></html>
+<head>
+    <meta charset="utf-8" />
+    <title>Certificados</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" type="image/x-icon" href="img/jc.ico" />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/custom.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-border text-primary"
+        style="width: 3rem; height: 3rem"
+        role="status"
+      >
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark px-5 d-none d-lg-block">
+      <div class="row gx-0 align-items-center" style="height: 45px">
+        <div class="col-lg-8 text-center text-lg-start mb-lg-0">
+          <div class="d-flex flex-wrap">
+            <!-- <a href="#" class="text-light me-4"
+              ><i class="fas fa-map-marker-alt text-primary me-2"></i>Find A
+              Location</a
+            > -->
+            <a href="https://api.whatsapp.com/send/?phone=5575998657502&text=Adorei+seu+artigo&type=phone_number&app_absent=0" class="text-light me-4"
+              ><i class="fas fa-phone-alt text-primary me-2"></i>+55 75
+              98837-7087</a
+            >
+            <a href="#" class="text-light me-0"
+              ><i class="fas fa-envelope text-primary me-2"></i
+              >junior@icdv.com.br</a
+            >
+          </div>
+        </div>
+        <div class="col-lg-4 text-center text-lg-end">
+          <div class="d-flex align-items-center justify-content-end">
+            <a
+                        href="https://www.facebook.com/junior.cardoso.568/"
+                        class="btn btn-light btn-square border rounded-circle nav-fill me-3"
+                        target="_blank"
+                        ><i class="fab fa-facebook-f"style="color: #3b5998;"></i
+                      ></a>
+                      <a
+                        href="https://x.com/juniorgs7"
+                        class="btn btn-light btn-square border rounded-circle nav-fill me-3"
+                        target="_blank"
+                        ><i class="fab fa-twitter" style="color: #55acee;"></i
+                      ></a>
+                      <a
+                        href="https://www.instagram.com/jrspfcgs7/"
+                        class="btn btn-light btn-square border rounded-circle nav-fill me-3"
+                        target="_blank"
+                        ><i class="fab fa-instagram" style="color: #ac2bac;"></i
+                      ></a>
+                      <a
+                        href="https://www.linkedin.com/in/junior-gs7/"
+                        class="btn btn-light btn-square border rounded-circle nav-fill me-0"
+                        target="_blank"
+                        ><i class="fab fa-linkedin-in" style="color: #0082ca;"></i
+                      ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid position-relative p-0">
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0"
+      >
+        <a href="index.html" class="navbar-brand p-0">
+          <h1 class="text-primary m-0">
+            <i class="fas fa-star-of-life me-3"></i>Meus Certificados
+          </h1>
+          <!-- <img src="img/logo.png" alt="Logo"> -->
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+        >
+          <span class="fa fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav ms-auto py-0">
+            <a href="index.html" class="nav-item nav-link active">Home</a>
+            <a href="about.html" class="nav-item nav-link">Sobre</a>
+            <a href="certificados.html" class="nav-item nav-link">Certificados</a>
+            <div class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                >Sites</a
+              >
+              <div class="dropdown-menu m-0">
+                <a
+                  href="https://anhanguera.vercel.app/"
+                  class="dropdown-item"
+                  target="_blank"
+                  >Anhaguera</a
+                >
+                <a
+                  href="https://guia-completo-para-ganhar-massa-muscular-rapidamente.vercel.app/"
+                  class="dropdown-item"
+                  target="_blank"
+                  >Guia Ganhar Massa</a
+                >
+                <a
+                  href="https://sabonetes-artesanais.vercel.app/"
+                  class="dropdown-item"
+                  target="_blank"
+                  >Sabonetes Artesanais</a
+                >
+                <a
+                  href="https://loja-de-roupa-omega.vercel.app/"
+                  class="dropdown-item"
+                  target="_blank"
+                  >Loja Roupa</a
+                >
+                <a
+                  href="https://rocally-cosmeticos.vercel.app/"
+                  class="dropdown-item"
+                  target="_blank"
+                  >Rocally Cosmeticos</a
+                >
+                <a
+                  href="https://recetas-brasilenas.vercel.app/"
+                  class="dropdown-item"
+                  target="_blank"
+                  >Recetas Brasilenas</a
+                >
+                <a
+                  href="https://supermercado-seven.vercel.app/"
+                  class="dropdown-item"
+                  target="_blank"
+                  >Supermercado</a
+                >
+                <a
+                  href="https://alura-plus-ruddy-chi.vercel.app/"
+                  class="dropdown-item"
+                  target="_blank"
+                  >Alura Plus</a
+                >
+                <a
+                  href="https://ola-mundo-rct.vercel.app/"
+                  class="dropdown-item"
+                  target="_blank"
+                  >Olá Mundo</a
+                >
+              </div>
+            </div>
+            <div class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                >Power BI</a
+              >
+              <div class="dropdown-menu m-0">
+                <a
+                  href="https://app.powerbi.com/view?r=eyJrIjoiMmIwOWNjOWQtYmIzYS00NGYzLTliYzctODg0YjlhMWRhYTA3IiwidCI6IjM1MWU4ZDlmLTMzZWUtNDQ0Ny05MDQ1LTNkM2I4MmU0MWUxZCJ9"
+                  class="dropdown-item"
+                  target="_blank"
+                  >Dados Vendas Ecommerce</a
+                >
+                <a
+                  href="https://app.powerbi.com/view?r=eyJrIjoiNmZiYTE3MjktYTkyNS00NDAyLTg1YzQtYWFlMjY3ODYyZTUxIiwidCI6IjM1MWU4ZDlmLTMzZWUtNDQ0Ny05MDQ1LTNkM2I4MmU0MWUxZCJ9"
+                  class="dropdown-item"
+                  target="_blank"
+                  >Dashboard Compras</a
+                >
+                <a
+                  href="https://app.powerbi.com/view?r=eyJrIjoiYjE1YTU4NTMtYmYyOC00YWM5LTgxNDYtMWFjZjM1MWVlNzk0IiwidCI6IjM1MWU4ZDlmLTMzZWUtNDQ0Ny05MDQ1LTNkM2I4MmU0MWUxZCJ9"
+                  class="dropdown-item"
+                  target="_blank"
+                  >Gestão de Vendas</a
+                >
+                <a
+                  href="https://app.powerbi.com/view?r=eyJrIjoiNDZhN2YxMGItNDNjOC00YTNiLWJiODktMGUwZmY3MzYyNGM0IiwidCI6IjM1MWU4ZDlmLTMzZWUtNDQ0Ny05MDQ1LTNkM2I4MmU0MWUxZCJ9"
+                  class="dropdown-item"
+                  target="_blank"
+                  >Mapeamento Colaboradores</a
+                >
+                
+              </div>
+            </div>
+            <!-- <a href="contact.html" class="nav-item nav-link">Contact Us</a> -->
+          </div>
+        </div>
+      </nav>
+        </div>
+        <!-- Navbar End -->
+
+        <!-- Header Start -->
+        <div class="header-carousel-item">
+            <img src="img/carousel-5.jpg" class="img-fluid w-100" alt="Image" />
+            <div class="carousel-caption">
+                <div class="carousel-caption-content p-3">
+            </div>
+            
+        </div>
+        <!-- Header End -->
+
+
+        <!-- Services Start -->
+        <div class="container-fluid service py-5">
+            <div class="container py-5">
+                <div class="section-title mb-5 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="sub-style">
+                        <h4 class="sub-title px-3 mb-0">Meus Certificados</h4>
+                    </div>
+                    <h1 class="display-3 mb-4">Certificados adquiridos em cursos técnicos</h1>
+                    <p class="mb-0">"Possuo certificados em diversos cursos técnicos que ampliaram minhas habilidades e conhecimentos em áreas específicas. Estes cursos abrangem  informática, front-end, back-end, marketing digital, proporcionando uma base sólida e prática no campo. Cada certificado representa um compromisso com o aprendizado contínuo e uma busca pela excelência profissional."</p>
+                </div>
+                <div class="row g-4 justify-content-center">
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item rounded">
+                           <div class="service-img rounded-top">
+                                <img src="img/certificado-1.jpg" class="img-fluid rounded-top w-100" alt="">
+                           </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">Front-End</h5>
+                                    <p class="mb-4">é a parte de um site ou aplicativo com a qual os usuários interagem diretamente. Ele envolve a criação e a implementação de elementos visuais, como layout, botões, menus, imagens e textos, garantindo que tudo seja apresentado de forma atrativa e funcional em diferentes dispositivos.</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item rounded">
+                           <div class="service-img rounded-top">
+                                <img src="img/certificado-2.jpg" class="img-fluid rounded-top w-100" alt="">
+                           </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">Java e Spring Boot</h5>
+                                    <p class="mb-4">Java é uma linguagem de programação amplamente usada e reconhecida por sua simplicidade, segurança e portabilidade, tenha uma Máquina Virtual Java (JVM). Spring Boot é um framework baseado em Java que facilita o desenvolvimento de aplicações web e microserviços.</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-item rounded">
+                           <div class="service-img rounded-top">
+                                <img src="img/certificado-3.jpg" class="img-fluid rounded-top w-100" alt="">
+                           </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">Aplicações Web com JavaScript</h5>
+                                    <p class="mb-4">Aplicações Web com JavaScript são programas que rodam em navegadores da web, utilizando JavaScript como principal linguagem de programação para interação com o usuário, manipulação de elementos da página e comunicação com servidores.</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="service-item rounded">
+                           <div class="service-img rounded-top">
+                                <img src="img/certificado-4.jpg" class="img-fluid rounded-top w-100" alt="">
+                           </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">SQL com PostgreSQL</h5>
+                                    <p class="mb-4">SQL (Structured Query Language) é uma linguagem padrão usada para gerenciar e manipular bancos de dados relacionais. PostgreSQL é um sistema de gerenciamento de banco de dados relacional de código aberto que utiliza SQL como sua linguagem de consulta principal, conhecido por sua robustez.</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+              <!-- Imagem Start -->
+        <!-- Services Start -->
+        <div class="container-fluid service py-5">
+            <div class="container py-5">
+                <div class="section-title mb-5 wow fadeInUp" data-wow-delay="0.2s">
+                                        
+                </div>
+                <div class="row g-4 justify-content-center">
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item rounded">
+                           <div class="service-img rounded-top">
+                                <img src="img/certificado-5.jpg" class="img-fluid rounded-top w-100" alt="">
+                           </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">Programação</h5>
+                                    <p class="mb-4">É o processo de criar instruções que um computador segue para realizar tarefas específicas. Essas instruções, escritas em uma linguagem de programação, como Python, Java ou C++, permitem que os computadores executem operações matemáticas, manipulem dados, controlem dispositivos de hardware, entre outras funções.</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item rounded">
+                           <div class="service-img rounded-top">
+                                <img src="img/certificado-6.jpg" class="img-fluid rounded-top w-100" alt="">
+                           </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">Data Science</h5>
+                                    <p class="mb-4">É um campo interdisciplinar que utiliza métodos, processos, e sistemas para extrair conhecimento de dados estruturados e não estruturados. Ele combina técnicas de estatística, e aprendizado de máquina para analisar grandes volumes de dados e transformar essas análises em informações.</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-item rounded">
+                           <div class="service-img rounded-top">
+                                <img src="img/certificado-7.jpg" class="img-fluid rounded-top w-100" alt="">
+                           </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">Marketing Digital</h5>
+                                    <p class="mb-4">Marketing Digital é o conjunto de estratégias e práticas usadas para promover produtos, serviços ou marcas por meio de plataformas digitais, como sites, redes sociais, motores de busca, e-mails e aplicativos móveis. Diferente do marketing tradicional, o Marketing Digital permite um alcance mais amplo e segmentado.</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+              <!-- Imagem Start -->
+
+  <!-- About Start -->
+    <div class="container-fluid about bg-light py-5">
+        <div class="container py-5">
+          <div class="row g-5 align-items-center">
+            <div class="col-lg-5 wow fadeInLeft" data-wow-delay="0.2s">
+              <div class="about-img pb-5 ps-5">
+                <img
+                  src="img/certificado-1.jpg"
+                  class="img-fluid rounded w-100"
+                  style="object-fit: cover"
+                  alt="Image"
+                />
+                
+               
+              </div>
+            </div>
+            <div class="col-lg-7 wow fadeInRight" data-wow-delay="0.4s">
+              <div class="section-title text-start mb-5">
+                <h4 class="h4-new-2">Front-End 100hs</h4> <br>
+                <h3 class="sub-title pe-3 mb-0">
+                    HTML e CSS.
+                  </h3>
+                  <p class="text-secondary"><i class="fa fa-check text-primary me-2"></i> Praticando HTML/CSS (de 24/05/2023 a 31/05/2023) 8hrs.</p>
+                <h3 class="sub-title pe-3 mb-0">
+                  JavaScript.
+                </h3>
+               
+                <div class="mb-4">
+                  <p class="text-secondary">
+                    <i class="fa fa-check text-primary me-2"></i> Explorando a linguagem (de 05/05/2023 a 09/05/2023) 10hrs .
+                  </p>
+                  <p class="text-secondary">
+                    <i class="fa fa-check text-primary me-2"></i> Programando a Orientação a Objetos (de 19/12/2022 a 05/05/2023) 10hrs .
+                  </p>
+                  <p class="text-secondary">
+                    <i class="fa fa-check text-primary me-2"></i> Interfaces e Herança em Orientação a Objetos (de 09/05/2023 a 23/05/2023) 12hrs .
+                  </p>
+                  
+                  <h3 class="sub-title pe-3 mb-0">
+                    React.
+                  </h3>
+                  <p class="text-secondary">
+                    <i class="fa fa-check text-primary me-2"></i> Entendendo como a biblioteca funciona (de 19/07/2023 a 21/07/2023) 12hrs .
+                  </p>
+                  <p class="text-secondary">
+                    <i class="fa fa-check text-primary me-2"></i> integrando seu projeto React com APIs (de 08/08/2023 a 14/08/2023) 8hrs .
+                  </p>
+                  <p class="text-secondary">
+                    <i class="fa fa-check text-primary me-2"></i> desenvolvendo com JavaScript (de 21/07/2023 a 01/08/2023) 14hrs.
+                  </p>
+                  <p class="text-secondary">
+                    <i class="fa fa-check text-primary me-2"></i> como os componentes funcionam (de 01/08/2023 a 03/08/2023) 8hrs.
+                  </p>
+                  <p class="text-secondary">
+                    <i class="fa fa-check text-primary me-2"></i> desenvolvendo em React Router com JavaScript (de 03/08/2023 a 08/08/2023) 8hrs .
+                  </p>
+
+                  <h3 class="sub-title pe-3 mb-0">
+                    Next.js Full stack.
+                  </h3>
+                  <p class="text-secondary"><i class="fa fa-check text-primary me-2"></i> arquitetura de componentes Front-end (de 14/08/2023 a 29/08/2023) 10hrs.</p>
+                  
+          
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- About End -->
+  <!-- About Start -->
+    <div class="container-fluid about bg-light py-5">
+        <div class="container py-5">
+          <div class="row g-5 align-items-center">
+            <div class="col-lg-5 wow fadeInLeft" data-wow-delay="0.2s">
+              <div class="about-img pb-5 ps-5">
+                <img
+                  src="img/certificado-2.jpg"
+                  class="img-fluid rounded w-100"
+                  style="object-fit: cover"
+                  alt="Image"
+                />
+                
+               
+              </div>
+            </div>
+            <div class="col-lg-7 wow fadeInRight" data-wow-delay="0.4s">
+              <div class="section-title text-start mb-5">
+                <h4 class="h4-new">Java e Spring Boot - 32hs </h4><br>
+                <h3 class="sub-title pe-3 mb-0">
+                  Spring Boot 3.
+                  </h3>
+                  <p class="text-secondary">
+                    <i class="fa fa-check text-primary me-2"></i> Desenvolva uma API Rest em Java (de 05/06/2023 a 07/06/2023) 10hrs.
+                  </p>
+                  <p class="text-secondary">
+                    <i class="fa fa-check text-primary me-2"></i> Aplique boas práticas e proteja uma API Rest (de 08/06/2023 a 13/06/2023) 12hrs.
+                  </p>
+                  <p class="text-secondary">
+                    <i class="fa fa-check text-primary me-2"></i> Documente, teste e prepare uma API para o deploy (de 14/06/2023 a 16/06/2023) 10hrs .
+                  </p>
+
+                  
+                
+          
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- About End -->
+  <!-- About Start -->
+    <div class="container-fluid about bg-light py-5">
+        <div class="container py-5">
+          <div class="row g-5 align-items-center">
+            <div class="col-lg-5 wow fadeInLeft" data-wow-delay="0.2s">
+              <div class="about-img pb-5 ps-5">
+                <img
+                  src="img/certificado-3.jpg"
+                  class="img-fluid rounded w-100"
+                  style="object-fit: cover"
+                  alt="Image"
+                />
+                
+               
+              </div>
+            </div>
+            <div class="col-lg-7 wow fadeInRight" data-wow-delay="0.4s">
+              <div class="section-title text-start mb-5">
+                <h4 class="h4-new-2">Aplicações Web com JavaScript - 58hs</h4>
+                <h3 class="sub-title pe-3 mb-0">
+                  JavaScript para Web.
+                  </h3>
+                  <p class="text-secondary">
+                    <i class="fa fa-check text-primary me-2"></i>Crie páginas dinâmicas (de 29/06/2023 a 29/06/2023) 10hrs.
+                  </p>
+                  <p class="text-secondary">
+                    <i class="fa fa-check text-primary me-2"></i>Armazenando dados no navegador (de 30/06/2023 a 30/06/2023) 6hrs .
+                  </p>
+                  <h3 class="sub-title pe-3 mb-0">
+                    JavaScript.
+                    </h3>
+                    <p class="text-secondary">
+                      <i class="fa fa-check text-primary me-2"></i>Manipulando o DOM (de 27/06/2023 a 28/06/2023) 6hrs.
+                    </p>
+                    <p class="text-secondary">
+                      <i class="fa fa-check text-primary me-2"></i>Criando requisições (de 28/06/2023 a 29/06/2023) 8hrs.
+                    </p>
+                    <p class="text-secondary">
+                      <i class="fa fa-check text-primary me-2"></i>Validando formulários (de 04/07/2023 a 05/07/2023) 8hrs .
+                    </p>
+                    <p class="text-secondary">
+                      <i class="fa fa-check text-primary me-2"></i>Validações e reconhecimento de voz (de 30/06/2023 a 03/07/2023) 6hrs.
+                    </p>
+                    <p class="text-secondary">
+                      <i class="fa fa-check text-primary me-2"></i>Consumindo e tratando dados de uma API (de 03/07/2023 a 03/07/2023) 6hrs.
+                    </p>
+                    <p class="text-secondary">
+                      <i class="fa fa-check text-primary me-2"></i>Métodos de array (de 03/07/2023 a 04/07/2023) 8hrs .
+                    </p>
+          
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- About End -->
+  <!-- About Start -->
+    <div class="container-fluid about bg-light py-5">
+        <div class="container py-5">
+          <div class="row g-5 align-items-center">
+            <div class="col-lg-5 wow fadeInLeft" data-wow-delay="0.2s">
+              <div class="about-img pb-5 ps-5">
+                <img
+                  src="img/certificado-4.jpg"
+                  class="img-fluid rounded w-100"
+                  style="object-fit: cover"
+                  alt="Image"
+                />  
+              </div>
+            </div>
+            <div class="col-lg-7 wow fadeInRight" data-wow-delay="0.4s">
+              <div class="section-title text-start mb-5">
+                <h4 class="h4-new-2">SQL com PostgreSQL - 46hs</h4>
+                <h3 class="sub-title pe-3 mb-0">
+                  PostgreSQL.
+                  </h3>
+                  <p class="text-secondary">
+                    <i class="fa fa-check text-primary me-2"></i>PostgreSQL (de 06/07/2023 a 09/07/2023) 8hrs.
+                  </p>
+                  <p class="text-secondary">
+                    <i class="fa fa-check text-primary me-2"></i>PostgreSQL: Views, Sub-Consultas e Funções (de 10/07/2023 a 10/07/2023) 6hrs.
+                  </p>
+                  <p class="text-secondary">
+                    <i class="fa fa-check text-primary me-2"></i>PostgreSQL: comandos DML e DDL (de 10/07/2023 a 11/07/2023) 8hrs.
+                  </p>
+                  <p class="text-secondary">
+                    <i class="fa fa-check text-primary me-2"></i>PostgreSQL: desenvolva com PL/pgSQL (de 11/07/2023 a 12/07/2023) 8hrs .
+                  </p>
+                  <p class="text-secondary">
+                    <i class="fa fa-check text-primary me-2"></i>PostgreSQL: Triggers, transações, erros e cursores (de 13/07/2023 a 14/07/2023) 8hrs.
+                  </p>
+                  <p class="text-secondary">
+                    <i class="fa fa-check text-primary me-2"></i>PostgreSQL: administração e otimização do banco (de 14/07/2023 a 19/07/2023) 8hrs.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- About End -->
+  <!-- About Start -->
+    <div class="container-fluid about bg-light py-5">
+        <div class="container py-5">
+          <div class="row g-5 align-items-center">
+            <div class="col-lg-5 wow fadeInLeft" data-wow-delay="0.2s">
+              <div class="about-img pb-5 ps-5">
+                <img
+                  src="img/certificado-5.jpg"
+                  class="img-fluid rounded w-100"
+                  style="object-fit: cover"
+                  alt="Image"
+                />  
+              </div>
+            </div>
+            <div class="col-lg-7 wow fadeInRight" data-wow-delay="0.4s">
+              <div class="section-title text-start mb-5">
+                <h4 class="h4-new">Programação - 102hs</h4>
+                <h3 class="sub-title pe-3 mb-0">
+                  JavaScript e HTML.
+                  </h3>
+                  <p class="text-secondary">
+                    <i class="fa fa-check text-primary me-2"></i>Desenvolva um jogo e pratique lógica de programação (de 29/11/2022 a 09/12/2022) 16hrs.
+                  </p>
+                  <p class="text-secondary">
+                    <i class="fa fa-check text-primary me-2"></i>Pratique lógica com desenhos, animações e um jogo (de 05/07/2023 a 06/07/2023) 
+                  </p>
+                  <p class="text-secondary">
+                    <i class="fa fa-check text-primary me-2"></i>Java JRE e JDK: compile e execute o seu programa (de 20/12/2022 a 29/12/2022) 8hrs.
+                  </p>
+                  <p class="text-secondary">
+                    <i class="fa fa-check text-primary me-2"></i>Java OO: entendendo a Orientação a Objetos (de 29/12/2022 a 05/01/2023) 8hrs .
+                  </p>
+                  <p class="text-secondary">
+                    <i class="fa fa-check text-primary me-2"></i>Java Polimorfismo: entenda herança e interfaces (de 06/01/2023 a 27/06/2023) 16hrs .
+                  </p>
+                  <p class="text-secondary">
+                    <i class="fa fa-check text-primary me-2"></i>Lógica de programação: comece em lógica com o jogo Pong e JavaScript (de 09/12/2022 a 14/12/2022) 6hrs .
+                  </p>
+                  <p class="text-secondary">
+                    <i class="fa fa-check text-primary me-2"></i>Lógica de programação: laços e listas com JavaScript (de 14/12/2022 a 19/12/2022) 4hrs.
+                  </p>
+                  <p class="text-secondary">
+                    <i class="fa fa-check text-primary me-2"></i>Persistência com JPA: Hibernate (de 02/06/2023 a 04/06/2023) 8hrs.
+                  </p>
+                  <p class="text-secondary">
+                    <i class="fa fa-check text-primary me-2"></i>Java: criando a sua primeira aplicação (de 30/05/2023 a 31/05/2023) 8hrs.
+                  </p>
+                  <p class="text-secondary">
+                    <i class="fa fa-check text-primary me-2"></i>Java: aplicando a Orientação a Objetos (de 01/06/2023 a 02/06/2023) 10hrs.
+                  </p>
+                  <p class="text-secondary">
+                    <i class="fa fa-check text-primary me-2"></i>Java: trabalhando com listas e coleções de dados (de 02/06/2023 a 02/06/2023) 8hrs .
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- About End -->
+  <!-- About Start -->
+    <div class="container-fluid about bg-light py-5">
+        <div class="container py-5">
+          <div class="row g-5 align-items-center">
+            <div class="col-lg-5 wow fadeInLeft" data-wow-delay="0.2s">
+              <div class="about-img pb-5 ps-5">
+                <img
+                  src="img/certificado-6.jpg"
+                  class="img-fluid rounded w-100"
+                  style="object-fit: cover"
+                  alt="Image"
+                />  
+              </div>
+            </div>
+            <div class="col-lg-7 wow fadeInRight" data-wow-delay="0.4s">
+              <div class="section-title text-start mb-5">
+                <h4 class="h4-new">Data Science - 6hs</h4>
+                <h3 class="sub-title pe-3 mb-0">
+                  Modelagem .
+                  </h3>
+                  <p class="text-secondary">
+                    <i class="fa fa-check text-primary me-2"></i>Modelagem de banco de dados relacional: entendendo SQL (de 06/07/2023 a 06/07/2023) 6hrs.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- About End -->
+  <!-- About Start -->
+    <div class="container-fluid about bg-light py-5">
+        <div class="container py-5">
+          <div class="row g-5 align-items-center">
+            <div class="col-lg-5 wow fadeInLeft" data-wow-delay="0.2s">
+              <div class="about-img pb-5 ps-5">
+                <img
+                  src="img/certificado-7.jpg"
+                  class="img-fluid rounded w-100"
+                  style="object-fit: cover"
+                  alt="Image"
+                />  
+              </div>
+            </div>
+            <div class="col-lg-7 wow fadeInRight" data-wow-delay="0.4s">
+              <div class="section-title text-start mb-5">
+                <h4 class="h4-new">Marketing Digital</h4>
+                <h3 class="sub-title pe-3 mb-0">
+                  Introdução ao tema.
+                  </h3>
+                  <p class="text-secondary">
+                    <i class="fa fa-check text-primary me-2"></i>Introdução ao Marketing Digital.
+                  </p>
+                  <p class="text-secondary">
+                    <i class="fa fa-check text-primary me-2"></i>Estratégia do Marketing Digital na sua Empresa.
+                  </p>
+                  <p class="text-secondary">
+                    <i class="fa fa-check text-primary me-2"></i>Inbound Marketing.
+                  </p>
+                  <p class="text-secondary">
+                    <i class="fa fa-check text-primary me-2"></i>Vendarketing.
+                  </p>
+                  <p class="text-secondary">
+                    <i class="fa fa-check text-primary me-2"></i>Métricas de Marketing Digital.
+                  </p>
+                  <p class="text-secondary">
+                    <i class="fa fa-check text-primary me-2"></i>Montando um departamento de Marketing Digital.
+                  </p>
+                  <p class="text-secondary">
+                    <i class="fa fa-check text-primary me-2"></i>Tráfego Pago - Análise de Métricas.
+                  </p>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- About End -->
+
+             
+
+
+         <!-- footer section -->
+    <footer class="footer_section">
+      <img src="img/carousel-2.jpg" class="img-fluid w-100" alt="Image" />
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 footer-col">
+            <div class="footer_contact">
+               
+          
+              <!-- <h4>Contatos</h4>
+              <div class="contact_link_box">
+                <a href="">
+                  <i class="fa fa-map-marker" aria-hidden="true"></i>
+                  <span> Localização </span>
+                </a>
+                <a href="">
+                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  <span> Zap +55 75 99865-7502 </span>
+                </a>
+                <a href="">
+                  <i class="fa fa-envelope" aria-hidden="true"></i>
+                  <span> jtdecursos@gmail.com </span>
+                </a>
+              </div> -->
+            </div>
+          </div>
+          <div class="col-md-4 footer-col">
+            <div class="footer_detail">
+              <!-- <a href="" class="footer-logo"> JC Cursos Online </a> -->
+              <!-- <p>
+                "O único lugar onde o sucesso vem antes do trabalho é no
+                dicionário." - Vidal Sassoon
+              </p> -->
+              <div class="footer_social">
+                <!-- <a
+                  href="https://www.facebook.com/profile.php?id=61558607053095"
+                  target="_blank"
+                >
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a> -->
+                <!-- <a href="">
+                  <i class="fa fa-twitter" aria-hidden="true" ></i>
+                </a> -->
+                <!-- <a
+                  href="https://api.whatsapp.com/send?phone=5575998657502&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20os%20cursos%20online"
+                  target="_blank"
+                >
+                  <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                </a>
+                <a
+                  href="https://www.instagram.com/jccursos.online/"
+                  target="_blank"
+                >
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a> -->
+                <!-- <a href=" target="_blank"">
+                  <i class="fa fa-pinterest" aria-hidden="true" ></i>
+                </a> -->
+              </div>
+            </div>
+          </div>
+          <!-- <div class="col-md-4 footer-col">
+            <h4>Horário de funcionamento</h4>
+            <p>Dom à Dom</p>
+            <p>24hs por dia</p>
+          </div> -->
+        </div>
+        <!-- <div class="footer-info">
+          <p>
+            &copy; <span id="displayYear"></span> Up Marketing
+            <a href="https://html.design/">Digital</a><br /><br />
+             &copy; <span id="displayYear"></span> Distributed By
+            <a href="https://themewagon.com/" target="_blank">ThemeWagon</a> -
+          </p>
+        </div> -->
+      </div>
+    </footer>
+    <!-- footer section -->
+
+    <!-- Redes Sociais Start -->
+
+    <footer class="text-center text-white" style="background-color: #f1f1f1;">
+      <!-- Grid container -->
+      <div class="container pt-4">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+
+    <!-- Facebook -->
+      <a
+        data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="https://www.facebook.com/junior.cardoso.568/"
+          role="button"
+            data-mdb-ripple-color="dark" target="_blank">
+              <i class="fab fa-facebook-f fa-2x" style="color: #3b5998;"></i>
+      </a>
+
+    <!-- Twitter -->
+      <a
+        data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="https://x.com/juniorgs7"
+          role="button"
+            data-mdb-ripple-color="dark" target="_blank">
+              <i class="fab fa-twitter fa-2x" style="color: #55acee;"></i>
+      </a>
+
+    <!-- Instagram -->    
+      <a
+        data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="https://www.instagram.com/jrspfcgs7/"
+          role="button"
+            data-mdb-ripple-color="dark" target="_blank">
+              <i class="fab fa-instagram fa-2x" style="color: #ac2bac;"></i>
+      </a>
+
+    <!-- Linkedin -->
+      <a
+        data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="https://www.linkedin.com/in/junior-gs7/"
+          role="button"
+            data-mdb-ripple-color="dark" target="_blank">
+              <i class="fab fa-linkedin-in fa-2x" style="color: #0082ca;"></i>
+      </a>
+
+    <!-- Github -->
+      <a
+        data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="https://github.com/junioricdv"
+          role="button"
+            data-mdb-ripple-color="dark" target="_blank">
+              <i class="fab fa-github fa-2x" style="color: #333333;"></i>
+      </a>
+
+    <!-- Whatsapp -->
+      <a
+        data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="https://api.whatsapp.com/send/?phone=5575998657502&text=Adorei+seu+artigo&type=phone_number&app_absent=0"
+          role="button"
+            data-mdb-ripple-color="dark" target="_blank">
+              <i class="fab fa-whatsapp fa-2x" style="color: #25d366;"></i>
+      </a>
+
+      </section>
+
+    <!-- Redes Sociais End -->
+      </div>
+      <!-- Grid container -->
+    
+      <!-- Copyright -->
+      
+      <!-- Copyright -->
+    </footer>
+        
+         <!-- Copyright Start -->
+    <div class="container-fluid copyright py-4">
+      <div class="container">
+        <div class="row g-4 align-items-center">
+          <div class="col-md-6 text-center text-md-start mb-md-0">
+            <span class="text-white"
+              ><a href="#"
+                ><i class="fas fa-copyright text-light me-2"></i>Up Marketing Digital</a
+              >, Todos os Direitos Reservados.</span
+            >
+          </div>
+          <div class="col-md-6 text-center text-md-end text-white">
+            <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+            <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
+            <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
+            Designed By
+            <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+            Distributed By
+            <a class="border-bottom" href="https://themewagon.com"
+              >ThemeWagon</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Copyright End -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        
+    </body>
+
+</html>
